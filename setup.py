@@ -7,7 +7,7 @@ import os
 from setuptools import setup, find_packages
 
 try:
-    with open('README.rst') as f:
+    with open('README.rst', encoding='utf-8') as f:
         readme = f.read()
 except IOError:
     readme = ''
